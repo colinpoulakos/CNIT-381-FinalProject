@@ -32,10 +32,10 @@ headers = {'Content-Type': 'application/yang-data+json',
 routers = utils.build_ansible_inv()
 
 # Bot Details
-bot_email = 'robotocnit381@webex.bot'
-teams_token = 'NjQ5OTdkMjUtYWUxNy00Yjc0LWFkMzAtOWIxNDI1MGFiMzBkNmUzMzA2MzUtYmYz_P0A1_98cbd302-3aa0-4db3-9364-0a369fd73ffd'
-bot_url = "https://f806-144-13-254-54.ngrok.io"
-bot_app_name = 'CNIT-381 Network Auto Chat Bot'
+bot_email = 'YOUR BOT EMAIL HERE'
+teams_token = 'YOUR BOT TOKEN HERE'
+bot_url = "YOUR WEBHOOK HERE"
+bot_app_name = 'Network Automation Chat Bot'
 
 # Create a Bot Object
 #   Note: debug mode prints out more details about processing to terminal
