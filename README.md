@@ -22,8 +22,9 @@ sudo snap install ngrok
 
 1. Download all files
 2. update input.yml with information for networking devices
-3. update roBOTo.py with your teams bot information <br><img width="308" alt="image" src="https://user-images.githubusercontent.com/117847136/201723318-1af10368-dbc9-4844-9fbe-9f0524048bae.png">
-4. launch Web hook 
+3. launch Web hook
+4. update roBOTo.py with your teams bot information <br><img width="308" alt="image" src="https://user-images.githubusercontent.com/117847136/201723318-1af10368-dbc9-4844-9fbe-9f0524048bae.png">
+5. run roBOTo.py
 
 ## Chat Bot Functions Overview
 ### General Commands
