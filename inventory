@@ -1,8 +1,0 @@
-[routers]
-hq ansible_host=192.168.56.101 ansible_user=cisco ansible_password=cisco123! ansible_become_pass=cisco123!
-branch ansible_host=192.168.56.103 ansible_user=cisco ansible_password=cisco123! ansible_become_pass=cisco123!
-
-[routers:vars]
-ansible_network_os=ios
-ansible_become=yes
-ansible_become_method=enable
