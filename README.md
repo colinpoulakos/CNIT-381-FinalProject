@@ -3,20 +3,20 @@ By Colin Poulakos and Nicolas Langenfeld
 
 
 /help
-list hostnames
+- list hostnames
 
 netmiko
-add loopback
-show dhcp
+- add loopback
+- show dhcp
 
 ansible
-backup routers
+- backup routers
 
 restconf
-show ospf
-show packet stats
+- show ospf
+- show packet stats
 
 Genie
-start monitor - netmiko
-stop monitor
+- start monitor - netmiko
+- stop monitor
 
