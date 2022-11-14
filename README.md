@@ -7,12 +7,18 @@ This goal of this project is to create a networking assistant chat bot that uses
 
 
 ### General Commands
+these commands use built in chat but functions
 - /help
+  - The /help command does this
 - list hostnames
+  - the list command does this
 
 ### Netmiko Commands
+these commands use netmiko which is a python extentsion
 - add loopback
+  - add loopback does this
 - show dhcp
+  - show dhcp does this
 
 ### Ansible Commands
 - backup routers
