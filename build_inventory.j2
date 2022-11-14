@@ -1,0 +1,8 @@
+[routers]
+{% for router,router_data in data.items() -%}
+{{router}} ansible_host={{router_data.ip}} ansible_user={{router_data.user}} ansible_password={{router_data.password}} ansible_become_pass={{router_data.secret}}
+{% endfor %}
+[routers:vars]
+ansible_network_os=ios
+ansible_become=yes
+ansible_become_method=enable

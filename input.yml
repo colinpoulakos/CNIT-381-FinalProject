@@ -1,0 +1,12 @@
+---
+hq:
+  ip: 192.168.56.101
+  user: cisco
+  password: cisco123!
+  secret: cisco123!
+
+branch:
+  ip: 192.168.56.103
+  user: cisco
+  password: cisco123!
+  secret: cisco123!

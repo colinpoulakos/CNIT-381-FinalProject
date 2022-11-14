@@ -1,0 +1,27 @@
+testbed:
+    name: IOS_Testbed
+    credentials:
+        default:
+            username: cisco
+            password: cisco123!
+        enable:
+            password: cisco123!
+
+devices:
+    CSR2: # <----- must match to your device hostname in the prompt
+        os: iosxe
+        type: iosxe
+        connections:
+            a:
+                protocol: ssh
+                ip: 192.168.56.103
+                port: 22
+
+    CSR1: # <----- must match to your device hostname in the prompt
+        os: iosxe
+        type: iosxs
+        connections:
+            a:
+                protocol: ssh
+                ip: 192.168.56.101
+                port: 22
