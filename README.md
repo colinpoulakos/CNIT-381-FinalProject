@@ -6,7 +6,7 @@ By Colin Poulakos and Nicolas Langenfeld
 This goal of this project is to create a networking assistant chat bot that uses a variety of tool including Netmiko, Ansible, RESTCONF, and Genie in order to edit, view, and monitor routers on a network. 
 
 ### Prerequisites 
-- Have a linux based Virtual Machine
+- Have a linux machine
 - Python 3.8
 - Webex account
 - Have the following untilites installed
@@ -20,6 +20,10 @@ sudo snap install ngrok
 
 ## How to Set up a Chat Bot
 
+1. Download all files
+2. update input.yml with information for networking devices
+3. update roBOTo.py with your teams bot information <br><img width="308" alt="image" src="https://user-images.githubusercontent.com/117847136/201723318-1af10368-dbc9-4844-9fbe-9f0524048bae.png">
+4. launch Web hook 
 
 ## Chat Bot Functions Overview
 ### General Commands
