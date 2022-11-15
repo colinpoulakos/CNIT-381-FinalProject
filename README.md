@@ -30,23 +30,26 @@ sudo snap install ngrok
 ### General Commands
 these commands use built in chat bot functions
 - /help
-  - The /help command does this
+  - The /help command lists all of the available commands in a chat bot and a description of what they do. 
 - list hostnames
-  - the list command does this
+  - The list hostnames command list all of the hostnames for the devices you put in the input.yml file 
 
 ### Netmiko Commands
-these commands use netmiko which is a python extentsion
+These commands all use netmiko which is a python extentsion that enables for simplifies the proccess of creating SSH connections for programming networking devices
 - add loopback
-  - add loopback does this
+  - The add loopback command creates a new loopback on a networking device and assigns it an unused IP address
 - show dhcp
-  - show dhcp does this
+  - The show dhcp command returns the output of the show dhcp command being ran on a networking device
 
 ### Ansible Commands
 - backup routers
+  - The backup routers command returns .txt files for all networking devices listed in input.yml, containing their current running configuration
 
 ### RESTCONF Commands
 - show ospf
+  - The show ospf command returns the output of the show ospf command being ran on a networking device
 - show packet stats
+  - The show packet stats command returns the output of the show stats command being ran on a networking device
 
 ### GenieCommands
 - start monitor - netmiko
