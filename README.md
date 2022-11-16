@@ -5,6 +5,8 @@ By Colin Poulakos and Nicolas Langenfeld
 
 This goal of this project is to create a networking assistant chat bot that uses a variety of tool including Netmiko, Ansible, RESTCONF, and Genie in order to edit, view, and monitor routers on a network. 
 
+<img width="607" alt="image" src="https://user-images.githubusercontent.com/117847136/202242063-68fc503f-635b-4daf-9d12-a44264ae0db2.png">
+
 ### Prerequisites 
 - Have a linux machine
 - Python 3.8
