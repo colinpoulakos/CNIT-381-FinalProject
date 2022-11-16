@@ -23,8 +23,8 @@ sudo snap install ngrok
 ## How to Set up a Chat Bot
 
 1. Download all files
-2. update input.yml with information for networking devices
-3. Uaunch Web hook
+2. Update input.yml with information for networking devices
+3. Launch Web hook
 4. Update roBOTo.py with your teams bot information <br><img width="450" alt="image" src="https://user-images.githubusercontent.com/117847136/201723318-1af10368-dbc9-4844-9fbe-9f0524048bae.png">
 5. Run roBOTo.py
 
