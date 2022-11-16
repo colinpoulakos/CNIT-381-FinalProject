@@ -22,15 +22,16 @@ sudo snap install ngrok
 
 1. Download all files
 2. update input.yml with information for networking devices
-3. launch Web hook
-4. update roBOTo.py with your teams bot information <br><img width="450" alt="image" src="https://user-images.githubusercontent.com/117847136/201723318-1af10368-dbc9-4844-9fbe-9f0524048bae.png">
-5. run roBOTo.py
+3. Uaunch Web hook
+4. Update roBOTo.py with your teams bot information <br><img width="450" alt="image" src="https://user-images.githubusercontent.com/117847136/201723318-1af10368-dbc9-4844-9fbe-9f0524048bae.png">
+5. Run roBOTo.py
 
 ## Chat Bot Functions Overview
 ### General Commands
 these commands use built in chat bot functions
 - /help
-  - The /help command lists all of the available commands in a chat bot and a description of what they do. <br> <img width="500" src="https://user-images.githubusercontent.com/65036456/202234792-8b4be954-8a3b-482f-804d-4a4bb4e78f51.png" />
+  - The /help command lists all of the available commands in a chat bot and a description of what they do. <br> <img width="500" src="https://user-images.githubusercontent.com/65036456/202236798-690e22cc-aa74-4456-8a76-4cb42abe9d17.png" />
+
 
 - list hostnames
   - The list hostnames command list all of the hostnames for the devices you put in the input.yml file 
