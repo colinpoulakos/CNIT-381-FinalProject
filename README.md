@@ -23,7 +23,7 @@ sudo snap install ngrok
 1. Download all files
 2. update input.yml with information for networking devices
 3. launch Web hook
-4. update roBOTo.py with your teams bot information <br><img width="450" alt="image" src="https://user-images.githubusercontent.com/117847136/201723318-1af10368-dbc9-4844-9fbe-9f0524048bae.png">
+4. update roBOTo.py with your teams bot information <br><img width="308" alt="image" src="https://user-images.githubusercontent.com/117847136/201723318-1af10368-dbc9-4844-9fbe-9f0524048bae.png">
 5. run roBOTo.py
 
 ## Chat Bot Functions Overview
@@ -44,7 +44,8 @@ These commands all use netmiko which is a python extentsion that enables for sim
 
 ### Ansible Commands
 - backup routers
-  - The backup routers command returns .txt files for all networking devices listed in input.yml, containing their current running configuration
+  - The backup routers command returns .txt files for all networking devices listed in input.yml, containing their current running configuration <br> <img width="400" src="https://user-images.githubusercontent.com/65036456/202235608-2c6f191b-83db-4aff-91fc-ac7270e4a2ca.png" />
+
 
 ### RESTCONF Commands
 - show ospf
