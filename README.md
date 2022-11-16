@@ -30,7 +30,8 @@ sudo snap install ngrok
 ### General Commands
 these commands use built in chat bot functions
 - /help
-  - The /help command lists all of the available commands in a chat bot and a description of what they do. 
+  - The /help command lists all of the available commands in a chat bot and a description of what they do. <br> ![image](https://user-images.githubusercontent.com/65036456/202234792-8b4be954-8a3b-482f-804d-4a4bb4e78f51.png)
+
 - list hostnames
   - The list hostnames command list all of the hostnames for the devices you put in the input.yml file 
 
