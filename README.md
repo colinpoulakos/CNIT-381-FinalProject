@@ -41,7 +41,7 @@ these commands use built in chat bot functions
 ### Netmiko Commands
 These commands all use netmiko which is a python extentsion that enables for simplifies the proccess of creating SSH connections for programming networking devices
 - add loopback
-  - The add loopback command creates a new loopback on a networking device and assigns it an unused IP address
+  - The add loopback command creates a new loopback on a networking device and assigns it the IP address you specify
 - show dhcp
   - The show dhcp command returns the output of the show dhcp command being ran on a networking device
 
@@ -57,6 +57,7 @@ These commands all use netmiko which is a python extentsion that enables for sim
   - The show packet stats command returns the output of the show stats command being ran on a networking device
 
 ### GenieCommands
-- start monitor - netmiko
-  - stop monitor
-
+- start monitor
+  - This command starts a function that will continually check the IP address of a router using Genie, and will trigger an event if the IP address changes. In our environment the function checks the IP address of a Branch rotuer and updates the VPN configuration of the HQ router if it changes. The update process uses Netmiko. 
+- stop monitor
+  - This function stops the monitoring function.  
