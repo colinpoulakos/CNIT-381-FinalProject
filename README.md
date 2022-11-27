@@ -43,7 +43,7 @@ These commands all use netmiko which is a python extentsion that enables for sim
 - add loopback
   - The add loopback command creates a new loopback on a networking device and assigns it the IP address you specify
 - show dhcp
-  - The show dhcp command returns the output of the show dhcp command being ran on a networking device
+  - The show dhcp command shows the interfaces on the specified router that were configured with DHCP
 
 ### Ansible Commands
 - backup routers
