@@ -62,5 +62,5 @@ These commands all use netmiko which is a python extentsion that enables for sim
 - stop monitor
   - This function stops the monitoring function.  
 
-- Our topology for testing the VPN monitor using Virtual Box. We used virtual routers and a Linux Vvirtual machine. <br><br> <img width="450" alt="image" src="https://user-images.githubusercontent.com/65036456/204852813-fcd82ffc-5bd2-418e-ba22-13d300134b7d.png">
+- Our topology for testing the VPN monitor using Virtual Box. We used virtual routers and a Linux virtual machine. <br><br> <img width="450" alt="image" src="https://user-images.githubusercontent.com/65036456/204852813-fcd82ffc-5bd2-418e-ba22-13d300134b7d.png">
 
