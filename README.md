@@ -61,3 +61,6 @@ These commands all use netmiko which is a python extentsion that enables for sim
   - This command starts a function that will continually check the IP address of a router using Genie, and will trigger an event if the IP address changes. In our environment the function checks the IP address of a Branch rotuer and updates the VPN configuration of the HQ router if it changes. The update process uses Netmiko. 
 - stop monitor
   - This function stops the monitoring function.  
+
+- Our topology for testing the VPN monitor using Virtual Box. We used virtual routers and a Linux Vvirtual machine. <br><br> <img width="450" alt="image" src="https://user-images.githubusercontent.com/65036456/204852813-fcd82ffc-5bd2-418e-ba22-13d300134b7d.png">
+
