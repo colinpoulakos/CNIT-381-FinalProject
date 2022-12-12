@@ -5,12 +5,14 @@ By Colin Poulakos and Nicolas Langenfeld
 
 This goal of this project is to create a networking assistant chat bot that uses a variety of tool including Netmiko, Ansible, RESTCONF, and Genie in order to edit, view, and monitor routers on a network. 
 
+This graphic gives a summary of the flow of the program and how the user interacts with the WebEx API, as well as the bot and the network devices. 
+
 <img width="607" alt="image" src="https://user-images.githubusercontent.com/117847136/202242063-68fc503f-635b-4daf-9d12-a44264ae0db2.png">
 
 ### Prerequisites 
 - Have a linux machine
 - Python 3.8
-- Webex account
+- Webex account with a new Bot created
 - Have the following untilites installed
 ```
 pip3 install ansible-runner
